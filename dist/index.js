@@ -1,0 +1,1 @@
+// MyRating: CommonJS Main

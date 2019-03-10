@@ -1,4 +1,6 @@
-export class MyRatingComponent {
+const h = window.MyRating.h;
+
+class MyRatingComponent {
     constructor() {
         this.maxValue = 5;
         this.value = 0;
@@ -50,5 +52,7 @@ export class MyRatingComponent {
             "cancelable": true,
             "composed": true
         }]; }
-    static get style() { return "/**style-placeholder:my-rating:**/"; }
+    static get style() { return ".rating {\n    color: orange;\n}"; }
 }
+
+export { MyRatingComponent as MyRating };

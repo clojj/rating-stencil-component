@@ -1,0 +1,1 @@
+// MyRating: ES Module
